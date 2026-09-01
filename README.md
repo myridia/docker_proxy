@@ -1,3 +1,5 @@
+<img src="docker_proxy.svg" alt="docker_proxy" width="120">
+
 ## run Proxy
 ```
 docker run -d --name proxy --cap-add=NET_ADMIN --add-host=host.docker.internal:host-gateway myridia/proxy
