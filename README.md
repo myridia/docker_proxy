@@ -1,8 +1,4 @@
-## Set up Socket proxy on your Host
-```
-ssh root@77.198.49.173 -D 0.0.0.0:9999
-
-```
+<img src="docker_proxy.svg" alt="docker_proxy" width="120">
 
 ## run Proxy
 ```
