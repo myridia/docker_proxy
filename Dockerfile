@@ -1,5 +1,5 @@
 FROM debian:latest
-LABEL version="0.1"
+LABEL version="0.2"
 MAINTAINER veto<veto@myridia.com>
 RUN apt-get update && apt-get install -y redsocks iptables && rm -rf /var/lib/apt/lists/*
 COPY redsocks.conf /etc/redsocks.conf
